@@ -2,51 +2,71 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<!--Import Google Icon Font-->
-		<link href="css/icon.css" rel="stylesheet">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<!--Import Google Icon Font-->
+	<link href="css/icon.css" rel="stylesheet">
 
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/styleguide.css"  media="all"/>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script>
 
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<script>
+	</script>
+</head>
 
-		</script>
-	</head>
+<body>
 
-	<body>
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+	<!-- sectionIntro -->
+	<div id="sectionIntro">
+		<div class="introHeader">
+			<h1>Les Breizh Gazelles</h1>
 
-		<script type="text/javascript">
-			var apiEndPoint="https://192.168.0.101";
+			<section class="connect">
+				<div class="connect-box">
+					<ul class="connect-icons">
 
-			if(window.location.origin !== apiEndPoint && window.location.origin !== "http://127.0.0.1:8080") {
-				apiEndPoint = window.location.origin;
-			};
-
-
-		</script>
-
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col s12 m6 l6 z-depth-1" style="margin-top:1em">
-					<div class="center"><span style="font-size:2em">Les Breizh Gazelles</span>
-
-
-					</div>
+						<li>
+							<a class="facebook" target="_blank" href="https://www.facebook.com/Les-Breizh-Gazelles-2018-1842078049361933/">
+								<span class="fa fa-facebook"></span>
+							</a>
+						</li>
+						<li>
+							<a class="youtube" href="#">
+								<span class="fa fa-youtube-play"></span>
+							</a>
+						</li>
+					</ul>
 				</div>
-
-
-			</div>
+			</section>
 
 		</div>
 
-	</body>
+	</div>
+	<!-- /sectionIntro -->
+
+	<div id="sectionAbout">
+		<section class="sectionTitle">
+			<h1>Une aventure humaine au coeur du désert</h1>
+		</section>
+	</div>
+
+	<section id="sectionContact">
+		<footer class="contactFooter">
+			<div class="container">
+				<div class="row">
+					<div class="footerLeft">
+						Copyright © 2015 Les Breizh Gazelles.
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+
+</body>
 </html>
