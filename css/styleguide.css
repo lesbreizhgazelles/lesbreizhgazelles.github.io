@@ -8,21 +8,25 @@ html,body {
   height: 100%, !important;
 }
 
+.parallax img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, -100);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 
 #sectionIntro {
   text-align: center;
   position:relative;
-  background-color: #1a1a1a;
-  background-image: url("../res/bg2-med.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-attachment: fixed;
   height: auto;
   width: 100%;
-  -webkit-box-shadow: inset 0px -9px 33px -5px rgba(0,0,0,0.2);
-  -moz-box-shadow: inset 0px -9px 33px -5px rgba(0,0,0,0.2);
-  box-shadow: inset 0px -9px 33px -5px rgba(0,0,0,0.2);
+
 }
 
 .logoRallyeAicha {
@@ -36,28 +40,17 @@ html,body {
   min-height : 15em;
 }
 
-.creditPhoto {
-  position : absolute;
-  bottom: 10px;
-  right : 10px;
-  float : left;
-}
-
-.creditPhoto a{
-  color: #EEE;
-}
-
 #sectionAbout {
   background: #FAFAFA;
   padding-bottom: 75px;
+  height:400px;
 }
 
 .introHeader {
   height: 100%;
   text-align: center;
   padding-left: 0;
-  padding-top: 25%;
-  min-height: 1000px;
+  padding-top: 2%;
   font-family:  Roboto;
 }
 
@@ -80,8 +73,28 @@ section, nav, article, aside, hgroup, header, footer {
   display: block;
 }
 
+.picture-box {
+  width : 100%;
+  text-align: center;
+}
+
+.picture {
+}
+
+.picture img {
+    border-radius: 50%;
+    height: 100px;
+    width : 100px;
+    background : none;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
 .connect {
   display : block;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .connect-box {
@@ -95,7 +108,6 @@ section, nav, article, aside, hgroup, header, footer {
   transition-timing-function: ease-out;
   transition-delay: 0s;
 }
-
 
 .facebook:hover{
   background: #3b5998;
