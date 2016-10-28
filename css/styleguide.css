@@ -38,21 +38,31 @@ html,body {
   background-size: auto;
   text-align: center;
   min-height : 15em;
+  padding-top : 30%;
 }
 
-#sectionAbout {
+.sectionContent {
   background: #FAFAFA;
-  padding-bottom: 75px;
-  height:400px;
+  height:300px;
 }
 
 .introHeader {
   height: 100%;
   text-align: center;
   padding-left: 0;
-  padding-top: 2%;
+  padding-top: 10em;
   font-family:  Roboto;
 }
+
+#sectionSponsors h1{
+
+  color: #B9A383;
+  font-size : 60px;
+
+}
+
+
+
 
 .introHeader h1 {
   color: #eee;
@@ -73,6 +83,11 @@ section, nav, article, aside, hgroup, header, footer {
   display: block;
 }
 
+#picture-gazelles{
+  margin-top : -70px;
+  position : absolute;
+}
+
 .picture-box {
   width : 100%;
   text-align: center;
@@ -83,13 +98,24 @@ section, nav, article, aside, hgroup, header, footer {
 
 .picture img {
     border-radius: 50%;
-    height: 100px;
-    width : 100px;
+    height: 140px;
+    width : 140px;
     background : none;
-    border-style: solid;
+    border-style: none;
     border-width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding : 3px;
 }
 
+
+.circle {
+
+  border-radius : 50%;
+  width : 60px;
+  height : 60px;
+  background-color : #aaa;
+}
 
 .connect {
   display : block;
