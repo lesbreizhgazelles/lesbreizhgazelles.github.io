@@ -24,7 +24,7 @@ html,body {
 #sectionIntro {
   text-align: center;
   position:relative;
-  height: auto;
+  height: 100%;
   width: 100%;
 
 }
@@ -37,8 +37,9 @@ html,body {
   z-index: 100;
   background-size: auto;
   text-align: center;
-  min-height : 15em;
-  padding-top : 30%;
+  min-height : 500px;
+  /*padding-top : 50%;*/
+
 }
 
 .sectionContent {
@@ -50,14 +51,15 @@ html,body {
   height: 100%;
   text-align: center;
   padding-left: 0;
-  padding-top: 10em;
+  padding-top: 5em;
+  vertical-align: baseline;
   font-family:  Roboto;
 }
 
 #sectionSponsors h1{
 
   color: #B9A383;
-  font-size : 60px;
+  font-size : 2em;
 
 }
 
@@ -71,11 +73,12 @@ html,body {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding-bottom: 0px;
+  /*padding-bottom: 0px;*/
   line-height: 75px;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   position: relative;
   display: inline-block;
+  margin-top: 0;
 }
 
 
@@ -198,8 +201,8 @@ section, nav, article, aside, hgroup, header, footer {
 
 .sectionTitle {
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 25px;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
 .sectionTitle h1 {
