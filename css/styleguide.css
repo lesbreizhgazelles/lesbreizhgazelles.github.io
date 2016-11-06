@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+  font-family: Roboto
 }
 
 html,body {
@@ -8,6 +8,13 @@ html,body {
   height: 100%, !important;
 }
 
+
+section, nav, article, aside, hgroup, header, footer {
+  display: block;
+}
+
+
+/*------ parallax ------*/
 .parallax img {
   display: none;
   position: absolute;
@@ -21,6 +28,17 @@ html,body {
           transform: translateX(-50%);
 }
 
+
+/*------ global ------*/
+
+.sectionContent {
+  background: #FAFAFA;
+  height:300px;
+}
+
+
+
+/*------ HEADER / INTRO ------*/
 #sectionIntro {
   text-align: center;
   position:relative;
@@ -29,41 +47,12 @@ html,body {
 
 }
 
-.logoRallyeAicha {
-  background-image: url("../res/logo-team.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  position : relative;
-  z-index: 100;
-  background-size: auto;
-  text-align: center;
-  min-height : 500px;
-  /*padding-top : 50%;*/
-
-}
-
-.sectionContent {
-  background: #FAFAFA;
-  height:300px;
-}
-
 .introHeader {
   height: 100%;
   text-align: center;
-  padding-left: 0;
-  padding-top: 5em;
   vertical-align: baseline;
   font-family:  Roboto;
 }
-
-#sectionSponsors h1{
-
-  color: #B9A383;
-  font-size : 2em;
-
-}
-
-
 
 
 .introHeader h1 {
@@ -79,45 +68,6 @@ html,body {
   position: relative;
   display: inline-block;
   margin-top: 0;
-}
-
-
-section, nav, article, aside, hgroup, header, footer {
-  display: block;
-}
-
-#picture-gazelles{
-  margin-top : -70px;
-  position : absolute;
-}
-
-.picture-box {
-  width : 100%;
-  text-align: center;
-}
-
-.picture {
-}
-
-.picture img {
-    border-radius: 50%;
-    height: 140px;
-    width : 140px;
-    background : none;
-    border-style: none;
-    border-width: 2px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding : 3px;
-}
-
-
-.circle {
-
-  border-radius : 50%;
-  width : 60px;
-  height : 60px;
-  background-color : #aaa;
 }
 
 .connect {
@@ -199,22 +149,67 @@ section, nav, article, aside, hgroup, header, footer {
 }
 
 
-.sectionTitle {
+/*----- PRESENTATION DES GAZELLES */
+
+#picture-gazelles{
+  margin-top : -70px;
+  position : absolute;
+}
+
+.picture-box {
+  width : 100%;
   text-align: center;
-  padding-top: 3em;
-  padding-bottom: 1em;
 }
 
-.sectionTitle h1 {
-  letter-spacing: 1px;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+.picture {
+}
+
+.picture img {
+    border-radius: 50%;
+    height: 140px;
+    width : 140px;
+    background : none;
+    border-style: none;
+    border-width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding : 3px;
 }
 
 
+.circle {
+
+  border-radius : 50%;
+  width : 60px;
+  height : 60px;
+  background-color : #aaa;
+}
+
+/*------ Section TEAM RALLYE Aicha ------*/
+.logoRallyeAicha {
+  /*background-image: url("../res/logo-team.png");*/
+  background-image: url("https://goo.gl/JFCRV1");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position : relative;
+  z-index: 100;
+  background-size: auto;
+  text-align: center;
+  min-height : 220px;
+  /*padding-top : 50%;*/
+
+}
+
+
+/*----- SECTION SPONSORS -----*/
+#sectionSponsors  h1{
+  text-align: center;
+  color: #B9A383;
+  font-size : 2em;
+}
+
+
+/*----- SECTION FOOTER -----*/
 #sectionContact {
   background: #FAFAFA;
 }

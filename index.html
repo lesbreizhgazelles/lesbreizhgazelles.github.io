@@ -8,7 +8,7 @@
 
 	<!--Import materialize.css-->
 	<!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<link type="text/css" rel="stylesheet" href="css/styleguide.css"  media="all"/>
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 	<!--Let browser know website is optimized for mobile-->
@@ -26,96 +26,159 @@
 		<div class="parallax">
 			<img src="../res/bg3.jpg">
 		</div>
-		<div id="sectionIntro" class="introHeader">
+		<div id="sectionIntro" class="introHeader valign-wrapper">
 
+			<div class="valign" style="width : 100%">
+				<h1>Les Breizh Gazelles</h1>
 
-			<h1>Les Breizh Gazelles</h1>
+				<section class="connect">
+					<div class="connect-box">
+						<ul class="connect-icons">
+							<li>
+								<a class="facebook" target="_blank" href="https://goo.gl/ljI7PU">
+									<span class="fa fa-facebook"></span>
+								</a>
+							</li>
+							<li>
+								<a class="youtube" target="_blank" href="https://goo.gl/9YuFPQ">
+									<span class="fa fa-youtube-play"></span>
+								</a>
+							</li>
+							<li>
+								<a class="gmail" href="mailto:lesbreizhgazelles2018@gmail.com">
+									<span class="fa fa-envelope"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
 
-			<section class="connect">
-				<div class="connect-box">
-					<ul class="connect-icons">
-						<li>
-							<a class="facebook" target="_blank" href="https://www.facebook.com/Les-Breizh-Gazelles-2018-1842078049361933/">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCiDIudaH4H57q7v5SASt4bw">
-								<span class="fa fa-youtube-play"></span>
-							</a>
-						</li>
-						<li>
-							<a class="gmail" href="mailto:lesbreizhgazelles2018@gmail.com">
-								<span class="fa fa-envelope"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
+			</div>
 
 
 		</div>
-		<!-- /sectionIntro -->
+
 	</div>
 
+	<!-- /sectionIntro -->
 
+
+	<!-- Section Prez des GAZELLES -->
 	<div class="sectionContent">
 		<div class="picture-box" id="picture-gazelles">
 			<div class="picture" >
-				<img src="../res/ac-med.jpg"/>
-				<img src="../res/mh-med-bw.jpg"/>
+				<a class="modal-trigger" href="#modalPresentationAC"><img src="../res/ac-med.jpg"/></a>
+				<a class="modal-trigger" href="#modalPresentationMH"><img src="../res/mh-med-bw.jpg"/></a>
 			</div>
 		</div>
-		<section class="sectionTitle" style="padding-top:5em">
-			<h1><i class="fa fa-quote-left"></i><span> Une aventure humaine au coeur du désert </span> <div class="fa fa-quote-right"></div></h1>
-			<span> 1 Objectif : participer au Rallye Aïcha des Gazelles 2018 </span>
-		</section>
+
+		<!-- fenetre modal -->
+		<!-- Modal Structure pour MH-->
+		<div id="modalPresentationMH" class="modal">
+			<div class="modal-content">
+
+				<div class="picture-box">
+					<div class="picture" >
+						<img src="../res/mh-med-bw.jpg"/>
+					</div>
+				</div>
+				Description à venir...
+				Patience !
+			</div>
+
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect btn-flat">Fermer</a>
+			</div>
+		</div>
+
+		<!-- fenetre modal -->
+		<!-- Modal Structure pour MH-->
+		<div id="modalPresentationAC" class="modal">
+			<div class="modal-content">
+
+				<div class="picture-box">
+					<div class="picture" >
+						<img src="../res/ac-med.jpg"/>
+					</div>
+				</div>
+				Description à venir...
+				Patience !
+			</div>
+
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect btn-flat">Fermer</a>
+			</div>
+		</div>
+
+
+
+
+		<div class="valign-wrapper" style="text-align:center;height:100%">
+			<div class="valign" style="width:100%">
+				<h1 style="font-size:24px;"><i class="fa fa-quote-left"></i><span> Une aventure humaine au coeur du désert </span> <div class="fa fa-quote-right"></div></h1>
+				<span> 1 Objectif : participer au Rallye Aïcha des Gazelles 2018 </span>
+			</div>
+		</div>
 	</div>
 
+	<!-- Fin prez des gazelles-->
 
+
+	<!-- stylish team GAZELLES -->
 	<div class="parallax-container">
 		<div class="parallax">
 			<img src="../res/bg4.jpg">
 		</div>
-
-		<div class="logoRallyeAicha">
+		<div class="valign-wrapper" style="height:100%">
+			<div class="valign" style="width:100%">
+				<div class="logoRallyeAicha">
+				</div>
+			</div>
 		</div>
 	</div>
 
+	<!-- Fin stylish team GAZELLES-->
 
 
 
+	<!-- NOS SPONSORS -->
 
-<div  id="sectionSponsors" class="sectionContent">
-	<section class="sectionTitle">
-		<h1><span>Nos Sponsors</span></h1>
-	</section>
-		<p style="text-align:center"><i class="fa fa-quote-left"></i>
-			Nous débutons notre conception de book sponsoring,
-			 n'hésitez pas à prendre contact avec nous pour débuter
-			  l'aventure dès aujourd'hui  <i class="fa fa-quote-right"></i>
+	<div  id="sectionSponsors" class="sectionContent">
+
+		<div class="valign-wrapper" style="height:100%">
+			<div class="valign" style="width:100%">
+
+				<h1><span>Nos Sponsors</span></h1>
+				<p style="text-align:center"><i class="fa fa-quote-left"></i>
+					Nous débutons notre conception de book sponsoring,
+					n'hésitez pas à prendre contact avec nous pour débuter
+					l'aventure dès aujourd'hui  <i class="fa fa-quote-right"></i>
 				</p>
 
-</div>
+			</div>
+		</div>
 
+	</div>
 
+	<!-- FIN NOS SPONSORS -->
+
+	<!-- FOOTER -->
 	<section id="sectionContact">
 		<footer class="contactFooter">
 			<div class="container">
 				<div class="row">
-					<div class="footerLeft">
-						Copyright © 2016 Les Breizh Gazelles.
-					</div>
+					<div class="col s12 m6">Copyright © 2016 Les Breizh Gazelles.</div>
+					<div class="col s12 m6">Design : <a href="https://goo.gl/xb4iCW">@herviou</a></div>
 				</div>
 			</div>
 		</footer>
 	</section>
 
+	<!-- FIN FOOTER -->
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	<script src="js/init.js"></script>
 
 </body>
